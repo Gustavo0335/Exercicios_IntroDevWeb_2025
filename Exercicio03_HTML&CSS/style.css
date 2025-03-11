@@ -1,0 +1,79 @@
+h1 {
+    font-size: 48px;
+    color: white;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c, #ff6b81);
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 48px;
+    color: white;
+    background: linear-gradient(45deg, #bd0d13, #dc0505, #c10521);
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 48px;
+    color: white;
+    background: linear-gradient(45deg, #4504fb, #5703e8, #035eb3);
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.github-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #24292e;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.github-button img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+}
+
+.github-button:hover {
+    background-color: #0366d6; /* Azul do GitHub */
+    transform: scale(1.05);
+}
+
+.github-button:hover img {
+    transform: rotate(360deg);
+}
+
+.castle-container img {
+    width: 50%; /* Reduz o tamanho da imagem para 50% da largura da tela */
+    max-width: 400px; /* Garante que não fique muito grande em telas grandes */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.castle-container img:hover {
+    transform: scale(1.05);
+}
