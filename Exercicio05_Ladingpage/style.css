@@ -1,0 +1,79 @@
+* {
+            margin: 0;
+          padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: url('https://source.unsplash.com/1600x900/?nature') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #1a1a2e;;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px 30px;
+            position: absolute;
+            top: 0;
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px;
+            background: #ff9800;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: 0.3s;
+        }
+        .links a:hover {
+            color: #ff9800;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            margin-top: 80px;
+        }
+        .image-block {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+        .image-block img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .image-block p {
+            margin-top: 10px;
+            color: #333;
+        }
+    
