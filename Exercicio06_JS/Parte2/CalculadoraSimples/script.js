@@ -1,0 +1,13 @@
+let num1 , num2 , resultadoad, resultadosub, resultadomult, resultadodiv;
+num1 = prompt("Digite o primeiro número: ");
+num2 = prompt("Digite o segundo número: ");
+num1 = parseFloat(num1);
+num2 = parseFloat(num2);
+resultadoad = num1 + num2;
+resultadosub = num1 - num2;
+resultadomult = num1 * num2;
+resultadodiv = num1 / num2;
+document.write("A soma dos números é: " + resultadoad);
+document.write("<br> A subtração dos números é: " + resultadosub);  
+document.write("<br> A multiplicação dos números é: " + resultadomult);
+document.write("<br> A divisão dos números é: " + resultadodiv);
