@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    margin-top: 30px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+  }
+  
